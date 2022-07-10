@@ -1,0 +1,26 @@
+<!-- <div class="card mb-3">
+  <img src="{{user.avatar}}" class="card-img-top" alt="{{user.first_name}} {{user.last_name}}">
+  <div class="card-body">
+    <h5 class="card-title">{{user.first_name}} {{user.last_name}}</h5>
+    <p class="card-text">{{user.email}}</p>
+    <p class="card-text"><small class="text-muted">{{user.id}}</small></p>
+  </div>
+</div> -->
+
+<div class="container">
+<mat-card class="card">
+  <mat-card-header>
+    <mat-card-title>{{user.first_name}} {{user.last_name}}</mat-card-title>
+    <mat-card-subtitle>{{user.email}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{user.avatar}}" alt="{{user.first_name}} {{user.last_name}}">
+  <mat-card-content>
+    <p>
+      {{user.first_name}} {{user.last_name}} is trapped in an awful card made with Angular Material
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button [routerLink]="['/users']" routerLinkActive="router-link-active">Go back</button>
+  </mat-card-actions>
+</mat-card>
+</div>

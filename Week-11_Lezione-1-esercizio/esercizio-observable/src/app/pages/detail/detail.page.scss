@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  justify-content: center;
+
+  .card {
+    max-width: 400px;
+    margin-top: 4rem;
+    background-color: black;
+    color: white;
+
+    mat-card-title, mat-card-subtitle{
+      text-align: center;
+      margin-left: 7rem;
+      color: white
+    }
+
+    p{
+      text-align: center;
+    }
+
+    button{
+      margin-left: 10.5rem;
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      height: 2rem;
+      background-color: #9147ff;
+      color: white;
+      padding: 0 10px;
+    }
+
+    button:hover{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+    }
+
+}
+}

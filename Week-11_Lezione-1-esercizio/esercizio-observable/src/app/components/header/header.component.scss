@@ -1,0 +1,12 @@
+.navbar {
+  justify-content: space-between;
+
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  span{
+    padding-right: 1rem;
+  }
+}
